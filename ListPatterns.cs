@@ -9,6 +9,9 @@ internal static class ListPatterns
 {
     public static void Run()
     {
+        Console.WriteLine("List Patterns (C# 11)");
+        Console.WriteLine("");
+
         //List Patterns (C# 11)
         //Before
         var numbers = new List<int> { 1, 2, 3, 4 };
@@ -33,5 +36,7 @@ internal static class ListPatterns
         {
             Console.WriteLine("The list does not start with 1, 2, 3");
         }
+
+        Console.WriteLine("");
     }
 }

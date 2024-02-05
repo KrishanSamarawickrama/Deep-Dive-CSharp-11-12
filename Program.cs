@@ -2,3 +2,7 @@
 
 //List Patterns (C# 11)
 ListPatterns.Run();
+
+//Record Structs (C# 11)
+RecordStructs.Run();
+

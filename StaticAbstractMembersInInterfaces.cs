@@ -31,4 +31,19 @@ internal static class StaticAbstractMembersInInterfaces
     {
         public static int Add(int a, int b) => a + b;
     }
+        
+    public static void Run()
+    {
+        Console.WriteLine("Static Abstract Members In Interfaces (C# 12)");
+        Console.WriteLine("");
+
+        var intMath = new IntMath();
+        Console.WriteLine(intMath.Add(1, 2)); //3
+        Console.WriteLine(IntMath.StaticAdd(1, 2)); //3
+
+        var intMath12 = new IntMath12();
+        Console.WriteLine(IntMath12.Add(1, 2)); //3
+
+        Console.WriteLine("");
+    }
 }

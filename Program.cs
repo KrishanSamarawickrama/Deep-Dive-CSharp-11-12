@@ -6,3 +6,5 @@ ListPatterns.Run();
 //Record Structs (C# 11)
 RecordStructs.Run();
 
+//Pattern Matching Enhancements (C# 12)
+PatternMatchingEnhancements.Run();
